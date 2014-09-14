@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="221px" height="221px" viewBox="0 0 221 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>svg-test</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFDA4D" offset="0%"></stop>
+            <stop stop-color="#FF5900" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FF2C4E" offset="0%"></stop>
+            <stop stop-color="#B30000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F40066" offset="0%"></stop>
+            <stop stop-color="#72002A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-4">
+            <stop stop-color="#3503B2" offset="0%"></stop>
+            <stop stop-color="#A53FCC" offset="67.718633%"></stop>
+            <stop stop-color="#DB5CD9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.0820289%" y1="51.1757791%" x2="-0.917968713%" y2="51.1757791%" id="linearGradient-5">
+            <stop stop-color="#FDD54C" offset="0%"></stop>
+            <stop stop-color="#F00001" offset="47.5247532%"></stop>
+            <stop stop-color="#0F2177" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <polygon id="Star-1" stroke="#979797" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" points="110.499998 165.75 45.5497348 199.896382 57.9541282 127.573191 5.40825416 76.3536245 78.0248752 65.8018035 110.500001 1.22679644e-14 142.975147 65.8018198 215.591763 76.3536772 163.045867 127.573205 175.450263 199.896383 "></polygon>
+        <polygon id="Star-1" stroke="#979797" fill="url(#linearGradient-2)" sketch:type="MSShapeGroup" transform="translate(110.500000, 110.500000) rotate(-55.000000) translate(-110.500000, -110.500000) " points="110.499998 165.75 45.5497348 199.896382 57.9541282 127.573191 5.40825416 76.3536245 78.0248752 65.8018035 110.500001 1.22679644e-14 142.975147 65.8018198 215.591763 76.3536772 163.045867 127.573205 175.450263 199.896383 "></polygon>
+        <polygon id="Star-1" stroke="#979797" fill="url(#linearGradient-3)" sketch:type="MSShapeGroup" transform="translate(110.500000, 110.500000) rotate(-42.000000) translate(-110.500000, -110.500000) " points="110.499998 165.75 45.5497348 199.896382 57.9541282 127.573191 5.40825416 76.3536245 78.0248752 65.8018035 110.500001 1.22679644e-14 142.975147 65.8018198 215.591763 76.3536772 163.045867 127.573205 175.450263 199.896383 "></polygon>
+        <polygon id="Star-1" stroke="#979797" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup" transform="translate(110.500000, 110.500000) rotate(-28.000000) translate(-110.500000, -110.500000) " points="110.499998 165.75 45.5497348 199.896382 57.9541282 127.573191 5.40825416 76.3536245 78.0248752 65.8018035 110.500001 1.22679644e-14 142.975147 65.8018198 215.591763 76.3536772 163.045867 127.573205 175.450263 199.896383 "></polygon>
+        <polygon id="Star-1" stroke="#979797" fill="url(#linearGradient-5)" sketch:type="MSShapeGroup" transform="translate(110.500000, 110.500000) rotate(-14.000000) translate(-110.500000, -110.500000) " points="110.499998 165.75 45.5497348 199.896382 57.9541282 127.573191 5.40825416 76.3536245 78.0248752 65.8018035 110.500001 1.22679644e-14 142.975147 65.8018198 215.591763 76.3536772 163.045867 127.573205 175.450263 199.896383 "></polygon>
+    </g>
+</svg>
