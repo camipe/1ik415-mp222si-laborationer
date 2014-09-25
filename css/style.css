@@ -89,9 +89,22 @@ img.round {
 	border-radius: 50%;
 }
 
-#footer {
+
+/*********************************
+SIDEBAR
+*********************************/
+
+.sidebar {
+	width: 50px;
+	background-color: #81d7fc;
+}
+
+/*********************************
+FOOTER
+*********************************/
+footer {
 	clear:both;
 	width: 100%;
-	background:#cc9;
+	background: #9bfffc;
 	text-align: center;
 }
