@@ -19,9 +19,9 @@ a {
 h1 {
 	font-family: 'Old Standard TT', serif;
 	color: #fff;
-	font-size: 5em;
-	padding: 20px;
-	margin: 20px;
+	font-size: 3em;
+	padding: 0 0 20px;
+	margin: 0;
 }
 
 .right {
@@ -33,7 +33,7 @@ h1 {
 }
 
 img {
-	margin: 15px;
+	padding: 15px;
 }
 
 /*********************************
@@ -49,6 +49,10 @@ header {
   -o-background-size: cover;
   background-size: cover;
 	background-color: #bafff8;
+}
+
+#logo {
+	padding: 75px 0 0;
 }
 
 /*********************************
