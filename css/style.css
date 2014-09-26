@@ -98,12 +98,19 @@ nav a:hover {
 /*********************************
 CONTENT
 *********************************/
+.main-content {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
 section.content {
 	margin: 0 auto;
 	padding: 25px 5% 0;
-	max-width: 960px;
+	max-width: 640px;
 	border: 1px;
 }
+
+
 
 p.content {
 	width: 600px;
@@ -120,7 +127,7 @@ SIDEBAR
 
 .sidebar {
 	width: 75px;
-	margin: 200px;
+	margin: 0 0 0 0;
 	float: right;
 }
 
