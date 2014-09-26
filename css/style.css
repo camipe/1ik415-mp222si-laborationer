@@ -83,7 +83,7 @@ nav a {
 /*********************************
 CONTENT
 *********************************/
-section {
+section.content {
 	margin: 0 auto;
 	padding: 25px 5% 0;
 	max-width: 960px;
@@ -101,6 +101,10 @@ SIDEBAR
 .sidebar {
 	width: 50px;
 	background-color: #81d7fc;
+}
+
+.iconslist {
+	list-style-type: none;
 }
 
 /*********************************
