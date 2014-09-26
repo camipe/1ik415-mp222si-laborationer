@@ -104,10 +104,9 @@ CONTENT
 }
 
 section.content {
-	margin: 0 auto;
-	padding: 25px 5% 0;
+	width: 640px;
+	margin: 0 0 0 0;
 	max-width: 640px;
-	border: 1px;
 }
 
 
@@ -127,7 +126,7 @@ SIDEBAR
 
 .sidebar {
 	width: 75px;
-	margin: 0 0 0 0;
+	margin:5px;
 	float: right;
 }
 
