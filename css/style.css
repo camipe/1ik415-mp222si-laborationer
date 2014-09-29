@@ -99,6 +99,15 @@ nav a:hover {
 	color: #78D6F0;
 }
 
+nav .active {
+	background-color: #BBCFE5;
+	color: #254b4e;
+}
+nav .active:visited {
+	color: #254b4e;
+}
+
+
 /*********************************
 CONTENT
 *********************************/
@@ -108,7 +117,7 @@ CONTENT
 }
 
 
-img.round {
+img .round {
 	border-radius: 50%;
 	margin-top: 75px;
 	padding: 15px;
