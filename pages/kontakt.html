@@ -10,7 +10,7 @@
   <body>
     <div class="page-wrapper">
       <header>
-        <img src="../pics/logo2.png" alt="Page logo" id="logo">
+        <img src="../pics/logo2.png" alt="Logo - a surfer on a wave and the letters M P." id="logo" >
         <h1>Kontakt</h1>
         <nav>
           <ul>
@@ -21,40 +21,59 @@
           </ul>
         </nav>
       </header>
-      <section>
-        <p>Detta är ett påhittat förmulär för att testa hur man skapar ett formulär med HTML</p>
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
-          <fieldset>
-            <legend>Fråga</legend>
-            <div>
-              <label for="typ">Ärendetyp</label>
-              <select name="typ" id="typ">
-                <option value="fråga">Fråga</option>
-              </select>
-            </div>
-            <div>
-              <label for="rubrik">Rubrik:</label>
-              <input type="text" name="rubrik" id="rubrik">
-            </div>
-            <div>
-              <label for="fråga">Fråga:</label>
-              <textarea name="fråga" rows="4" cols="30" id=fråga></textarea>
-            </div>
-          </fieldset>
-          <fieldset>
-            <legend>Information om dig</legend>
-            <div>
-              <label for="emailkontakt">Kontakta mig via mail</label>
-              <input type="checkbox" name="emailkontakt" id="emailkontakt">
-            </div>
-            <div>
-              <label for="telefonkontakt">Kontakta mig via telefon</label>
-              <input type="checkbox" name="telefonkontakt" id="telefonkontakt">
-            </div>
-          </fieldset>
-          <input type="submit" value="Skicka!">
-        </form>
-      </section>
+      <div class="main-content">
+        <div class="sidebar right" id="sidebar">
+          <ul class="iconslist">
+            <li class="facebook">
+              <a href="https://www.facebook.com/micael.persson.33"><img src="../css/pics/fb.png" alt="Facebook" class="socialmediaicons"id="facebook" ></a>
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/_camipe"><img src="../css/pics/twitter.png" alt="Twitter" class="socialmediaicons" id="twitter" ></a>
+            </li>
+            <li class="instagram">
+              <a href="http://instagram.com/doxbox"><img src="../css/pics/ig.png" alt="Instagram" class="socialmediaicons" id="Instagram" ></a>
+            </li>
+            <li class="github">
+              <a href="https://github.com/camipe"><img src="../css/pics/gh.png" alt="Github" class="socialmediaicons" id="Github" ></a>
+            </li>
+          </ul>
+        </div>
+        <section class="content">
+          <img src="../pics/profilbild.jpg" alt="A picture of me" id="profilbild" class="round right">
+          <p>Detta är ett påhittat förmulär för att testa hur man skapar ett formulär med HTML</p>
+          <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+            <fieldset>
+              <legend>Fråga</legend>
+              <div>
+                <label for="typ">Ärendetyp</label>
+                <select name="typ" id="typ">
+                  <option value="fråga">Fråga</option>
+                </select>
+              </div>
+              <div>
+                <label for="rubrik">Rubrik:</label>
+                <input type="text" name="rubrik" id="rubrik">
+              </div>
+              <div>
+                <label for="fråga">Fråga:</label>
+                <textarea name="fråga" rows="4" cols="30" id=fråga></textarea>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Information om dig</legend>
+              <div>
+                <label for="emailkontakt">Kontakta mig via mail</label>
+                <input type="checkbox" name="emailkontakt" id="emailkontakt">
+              </div>
+              <div>
+                <label for="telefonkontakt">Kontakta mig via telefon</label>
+                <input type="checkbox" name="telefonkontakt" id="telefonkontakt">
+              </div>
+            </fieldset>
+            <input type="submit" value="Skicka!">
+          </form>
+        </section>
+      </div>
       <footer>
         <p><a href="#logo">Icon</a> made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Modified by me.</p>
         <p>&copy; 2014 Micael Persson.</p>

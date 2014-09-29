@@ -8,10 +8,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+    <!--Below is all the content for this page-->
     <div class="page-wrapper">
       <header>
-      <img src="pics/logo2.png" alt="Page logo" id="logo" >
-      <h1>Micael Perssons sida</h1>
+        <img src="pics/logo2.png" alt="Logo - a surfer on a wave and the letters M P." id="logo" >
+        <h1>Micael Perssons sida</h1>
         <nav>
           <ul>
             <li><a href="index.html">Start</a></li>
@@ -21,26 +22,44 @@
           </ul>
         </nav>
       </header>
-      <section>
-        <h2>Kursblogg</h2>
-        <div id="post1">
-          <h3>First!</h3>
-          <p>Här kommer jag skriva lite om de olika laborationerna och publicera material som jag jobbat med i kursen Webbteknisk introduktion.</p>
-          <p>Skrivet av Micael, 2014-08-08</p>
+      <div class="main-content">
+        <div class="sidebar right" id="sidebar">
+          <ul class="iconslist">
+            <li class="facebook">
+              <a href="https://www.facebook.com/micael.persson.33"><img src="css/pics/fb.png" alt="Facebook" class="socialmediaicons"id="facebook" ></a>
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/_camipe"><img src="css/pics/twitter.png" alt="Twitter" class="socialmediaicons" id="twitter" ></a>
+            </li>
+            <li class="instagram">
+              <a href="http://instagram.com/doxbox"><img src="css/pics/ig.png" alt="Instagram" class="socialmediaicons" id="Instagram" ></a>
+            </li>
+            <li class="github">
+              <a href="https://github.com/camipe"><img src="css/pics/gh.png" alt="Github" class="socialmediaicons" id="Github" ></a>
+            </li>
+          </ul>
         </div>
-        <div id="post2">
-          <h3>Vectorgrafik</h3>
-          <p>Det här är en svg-fil som jag skapat med Sketch för OSX</p>
-          <object type="image/svg+xml" data="pics/svgtest.svg"></object>
-          <p>Skrivet av Micael, 2014-08-13</p>
-        </div>
-        <div id="post3">
-          <h3>Video</h3>
-          <p>Provar att visa ett filmklipp med html5-taggen video. Filmklippet är nedladdat på http://www.bigbuckbunny.org.</p>
-          <video src="videos/trailer_480p.mov" width="640" height="360" controls></video>
-          <p>Skrivet av Micael, 2014-08-14</p>
-        </div>
-      </section>
+        <section class="content">
+          <h2>Kursblogg</h2>
+          <div id="post1">
+            <h3>First!</h3>
+            <p>Här kommer jag skriva lite om de olika laborationerna och publicera material som jag jobbat med i kursen Webbteknisk introduktion.</p>
+            <p>Skrivet av Micael, 2014-08-08</p>
+          </div>
+          <div id="post2">
+            <h3>Vectorgrafik</h3>
+            <p>Det här är en svg-fil som jag skapat med Sketch för OSX</p>
+            <object type="image/svg+xml" data="pics/svgtest.svg"></object>
+            <p>Skrivet av Micael, 2014-08-13</p>
+          </div>
+          <div id="post3">
+            <h3>Video</h3>
+            <p>Provar att visa ett filmklipp med html5-taggen video. Filmklippet är nedladdat på http://www.bigbuckbunny.org.</p>
+            <video src="videos/trailer_480p.mov" width="640" height="360" controls></video>
+            <p>Skrivet av Micael, 2014-08-14</p>
+          </div>
+        </section>
+      </div>
       <footer>
         <p><a href="#logo">Icon</a> made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Modified by me.</p>
         <p>&copy; 2014 Micael Persson.</p>
