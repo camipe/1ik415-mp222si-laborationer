@@ -2,15 +2,6 @@
 GENERAL
 *********************************/
 
-/*
-  Nav-bg: 044A5B
-	nav-text: 63B2C7/
-	Bg: B2C5DA
-	text: 022124
-	footer: 013D41
-
-*/
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #BBCFE5;
@@ -23,7 +14,15 @@ body {
 }
 
 a {
-	text-decoration: none;
+	color: #d98953;
+}
+
+a:visited {
+	color: #B26810;
+}
+
+a:hover {
+	color: #ffa341;
 }
 
 h1 {
@@ -37,7 +36,6 @@ h1 {
 h2 {
 	font-size: 2em;
 	padding-top: 30px;
-
 }
 
 .right {
@@ -90,6 +88,11 @@ nav li {
 nav a {
 	padding: 15px 10px;
 	color: #5EA9BD;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #5EA9BD;
 }
 
 nav a:hover {
@@ -136,11 +139,20 @@ SIDEBAR
 /*********************************
 FOOTER
 *********************************/
-footer {
+.footer {
 	clear:both;
+	font-size: 0.8em;
 	width: 100%;
-	background: #013D41;
+	background: #044A5B;
 	text-align: center;
-	color: #63B2C7;
+	color: #5EA9BD;
+}
 
+.footer a {
+	text-decoration: none;
+	color: #5EA9BD;
+}
+
+.footer a:hover {
+	color: #78D6F0;
 }
