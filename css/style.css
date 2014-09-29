@@ -117,12 +117,19 @@ CONTENT
 }
 
 
-img .round {
+.round {
 	border-radius: 50%;
 	margin-top: 75px;
 	padding: 15px;
 }
 
+.company-logos {
+   width:160px;
+   height:160px;
+   background-image:url(../css/pics/gdm-koneo-logo.png);
+   margin-left: 25px;
+	float: right;
+}
 
 /*********************************
 SIDEBAR
