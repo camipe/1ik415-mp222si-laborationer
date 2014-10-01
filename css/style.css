@@ -141,6 +141,26 @@ CONTENT
 }
 
 /*********************************
+TABLE
+*********************************/
+
+table {
+	border-collapse: collapse;
+	width: 350px;
+	background-color: #5EA9BD;
+	border: 1px solid #fff;
+}
+th {
+	background: #044A5B;
+	color: #78D6F0;
+
+}
+
+th, td {
+	padding: 10px 30px;
+}
+
+/*********************************
 SIDEBAR
 *********************************/
 
