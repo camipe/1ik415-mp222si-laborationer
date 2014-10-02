@@ -43,28 +43,29 @@
           <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
             <fieldset>
               <legend>Fråga</legend>
-              <div>
-                <label for="typ">Ärendetyp</label>
+              <div class="form-row">
+                <label for="typ">Ärendetyp:</label>
                 <select name="typ" id="typ">
                   <option value="fråga">Fråga</option>
+                  <option value="klagomål">Klagomål</option>
                 </select>
               </div>
-              <div>
+              <div class="form-row">
                 <label for="rubrik">Rubrik:</label>
                 <input type="text" name="rubrik" id="rubrik">
               </div>
-              <div>
+              <div class="form-row">
                 <label for="fråga">Fråga:</label>
                 <textarea name="fråga" rows="4" cols="30" id=fråga></textarea>
               </div>
             </fieldset>
             <fieldset>
               <legend>Information om dig</legend>
-              <div>
+              <div class="form-row">
                 <label for="emailkontakt">Kontakta mig via mail</label>
                 <input type="checkbox" name="emailkontakt" id="emailkontakt">
               </div>
-              <div>
+              <div class="form-row">
                 <label for="telefonkontakt">Kontakta mig via telefon</label>
                 <input type="checkbox" name="telefonkontakt" id="telefonkontakt">
               </div>

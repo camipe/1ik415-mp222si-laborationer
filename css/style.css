@@ -162,6 +162,43 @@ th, td {
 }
 
 /*********************************
+FORM
+*********************************/
+
+fieldset {
+	border: 3px solid #044A5B;
+}
+
+input, textarea, select {
+  width : 200px;
+  margin: 0;
+	border: 2px solid #044A5B;
+}
+
+legend {
+  padding: 10px 25px;
+	font-size: 1.4em;
+}
+
+label {
+	width: 115px;
+	float: left;
+	padding-left: 15px;
+}
+
+.form-row {
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+
+input[type="submit"] {
+	border: 2px solid #044A5B;
+	width: 100px;
+	height: 35px;
+	margin: 25px 0 35px 30px;
+}
+
+/*********************************
 SIDEBAR
 *********************************/
 
