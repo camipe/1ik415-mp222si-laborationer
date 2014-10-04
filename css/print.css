@@ -1,0 +1,77 @@
+/*********************************
+GENERAL
+*********************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: none;
+  color: black;
+}
+
+nav {
+  display: none;
+}
+
+#logo {
+  display: none;
+}
+
+.sidebar
+{
+  display: none;
+}
+
+/*********************************
+TABLE
+*********************************/
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  background-color: #FFF;
+  border: 2px solid #000;
+}
+th {
+  background: #b3b3b3;
+  color: #FFF;
+}
+
+th, td {
+  padding: 10px 30px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+/*********************************
+FORM
+*********************************/
+fieldset {
+  border: 1px solid #000;
+}
+
+input, textarea, select {
+  width : 200px;
+  margin: 0;
+  border: 1px solid #000;
+}
+
+legend {
+  padding: 10px 25px;
+  font-size: 1.4em;
+}
+
+label {
+  width: 115px;
+  float: left;
+  padding-left: 15px;
+}
+
+.form-row {
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+input[type="submit"] {
+  border: 1px solid #000;
+  width: 100px;
+  height: 35px;
+  margin: 25px 0 35px 30px;
