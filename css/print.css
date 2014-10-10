@@ -20,6 +20,8 @@ nav {
   display: none;
 }
 
+a[href^=http]:link:after, a[href^=http]:visited:after { content:" -" attr(href)" " ; }
+
 /*********************************
 TABLE
 *********************************/
