@@ -213,10 +213,72 @@ SIDEBAR
 
 }
 
-.socialmediaicons {
-	margin: 15px;
+
+
+
+.facebook a {
+	display: inline-block;
+	text-decoration: none;
+	background: url('pics/sprites.png') no-repeat -35px -160px;
+	width: 49px;
+	height: 49px;
+	margin: 5px 5px;
 }
 
+.facebook a:hover {
+	background: url('pics/sprites.png') no-repeat -35px -483px;
+	width: 49px;
+	height: 49px;
+	margin: 5px 5px;
+}
+
+.twitter a {
+	display: inline-block;
+	text-decoration: none;
+	background: url('pics/sprites.png') no-repeat -95px -160px;
+	width: 49px;
+	height: 49px;
+	margin: 5px 5px;
+}
+
+.twitter a:hover {
+	background: url('pics/sprites.png') no-repeat -95.5px -483.5px;
+	width: 49px;
+	height: 49px;
+	margin: 5px 5px;
+}
+
+.instagram a {
+	display: inline-block;
+	text-decoration: none;
+	background: url('pics/sprites.png') no-repeat -395px -160px;
+	width: 49px;
+	height: 49px;
+	margin: 5px 5px;
+}
+
+.instagram a:hover {
+	background: url('pics/sprites.png') no-repeat -395px -483px;
+	width: 49px;
+	height: 49px;
+	margin: 5px 5px;
+}
+
+.github a {
+	display: inline-block;
+	text-decoration: none;
+	background: url('pics/sprites.png') no-repeat -275px -280px;
+	width: 49px;
+	height: 49px;
+	margin: 5px 5px;
+}
+
+.github a:hover {
+	background: url('pics/sprites.png') no-repeat -275px -603px;
+	width: 49px;
+	height: 49px;
+	margin: 5px 5px;
+}
 
 /*********************************
 FOOTER
