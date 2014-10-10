@@ -202,19 +202,20 @@ SIDEBAR
 *********************************/
 
 .sidebar {
-	width: 75px;
+	width: 100px;
 	margin: 50px 20px;
 	float: right;
+}
+
+.sidebar h3 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
 }
 
 .iconslist {
 	list-style-type: none;
 	padding-left: 0;
-
 }
-
-
-
 
 .facebook a {
 	display: inline-block;
