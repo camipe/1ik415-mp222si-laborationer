@@ -305,3 +305,8 @@ FOOTER
 .footer p {
 	margin: 10px 0 0 0;
 }
+
+/*********************************
+MOBILE
+*********************************/
+@import url("/mobile.css") screen and (max-width: 481px);
