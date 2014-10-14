@@ -42,7 +42,16 @@ nav .active:visited {
 /*********************************
 CONTENT
 *********************************/
+.content {
+  margin: 0 5%;
+}
 
+.content img {
+  float: none;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
 /*********************************
 SIDEBAR
 *********************************/
