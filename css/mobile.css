@@ -76,6 +76,16 @@ table {
 	overflow-x: auto;
 	display: block;
 	}
+
+input[type="checkbox"] {
+  width: 10%;
+  display: block;
+  float: left;
+  margin: 15px 0 0 15px;
+
+
+}
+
 /*********************************
 SIDEBAR
 *********************************/
