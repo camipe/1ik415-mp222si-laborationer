@@ -5,3 +5,12 @@
   float: left;
   box-shadow: 0 6px 10px rgba(0,0,0,.5);
 }
+
+.gallery img {
+  display:block;
+}
+
+.gallery a:after {
+  content: attr(title);
+  display: block;
+}
