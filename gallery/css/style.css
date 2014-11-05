@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
+body {
+  background: cornsilk;
+}
+
+.gallery {
+  margin: 30px auto;
+  width: 90%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+
+}
+
+.gallery a {
+  background: snow;
+  padding: 10px 10px 40px;
+  margin: 0 10px 10px;
+  float: left;
+  box-shadow: 0 6px 10px rgba(0,0,0,.5);
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  z-index: 0;
+  transform: rotate(5deg);
+}
+
+.gallery a:nth-child(2n) {
+  transform: rotate(-15deg);
+}
+
+.gallery a:nth-child(3n) {
+  transform: rotate(10deg);
+}
+
+.gallery a:nth-child(6) {
+  transform: rotate(-3deg);
+}
+
+.gallery img {
+  display:block;
+}
+
+.gallery a:after {
+  content: attr(title);
+  display: block;
+  color: black;
+  position: relative;
+  top: 20px;
+}
+
+.gallery a:hover, .gallery a:focus {
+  transform: rotate(0deg) scale(1.2);
+  z-index: 50;
+  box-shadow: 0 12px 15px rgba(0,0,0,.3);
+}
