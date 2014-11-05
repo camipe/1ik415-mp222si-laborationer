@@ -139,6 +139,18 @@ CONTENT
 
 }
 
+.comment-section {
+	font-size: 0.7em;
+}
+
+.comment-section:before {
+	content: " ";
+	display: block;
+	width: 80%;
+	height: 2px;
+	background: #000;
+}
+
 /*********************************
 TABLE
 *********************************/
