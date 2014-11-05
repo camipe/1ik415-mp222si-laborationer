@@ -6,6 +6,19 @@
   box-shadow: 0 6px 10px rgba(0,0,0,.5);
   text-decoration: none;
   text-align: center;
+  transform: rotate(5deg);
+}
+
+.gallery a:nth-child(2n) {
+  transform: rotate(-15deg);
+}
+
+.gallery a:nth-child(3n) {
+  transform: rotate(10deg);
+}
+
+.gallery a:nth-child(6) {
+  transform: rotate(-3deg);
 }
 
 .gallery img {
