@@ -1,14 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
+body {
+  background: cornsilk;
+}
+
 .gallery {
   margin: 30px auto;
   width: 90%;
   font-family: 'Amatic SC', cursive;
   font-size: 2em;
+
 }
 
 .gallery a {
-  background: tomato;
+  background: snow;
   padding: 10px 10px 40px;
   margin: 0 10px 10px;
   float: left;
