@@ -1,0 +1,5 @@
+.gallery a {
+  background: tomato;
+  padding: 20px;
+  float: left;
+}
