@@ -1,6 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
 .gallery {
   margin: 30px auto;
   width: 90%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
 }
 
 .gallery a {
