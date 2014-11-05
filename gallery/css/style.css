@@ -1,3 +1,8 @@
+.gallery {
+  margin: 30px auto;
+  width: 90%;
+}
+
 .gallery a {
   background: tomato;
   padding: 10px 10px 40px;
